@@ -1,0 +1,21 @@
+Object { cloud_pct: 39, temp: 20, feels_like: 20, humidity: 65, min_temp: 17, max_temp: 23, wind_speed: 0.45, wind_degrees: 23, sunrise: 1693055992, sunset: 1693105375 }
+​
+cloud_pct: 39
+​
+feels_like: 20
+​
+humidity: 65
+​
+max_temp: 23
+​
+min_temp: 17
+​
+sunrise: 1693055992
+​
+sunset: 1693105375
+​
+temp: 20
+​
+wind_degrees: 23
+​
+wind_speed: 0.45

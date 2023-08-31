@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+  
+    <link rel="stylesheet" href="./app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <button id="submit">Search</button>
+        <input id="city" type="text" placeholder="Please Enter City">
+    </div>
+    
+    <div class="main">
+        <div class="contain">
+            <div class="card">
+                <div class="cardhead">
+                    <h3>Weather Information</h3>
+                </div>
+                <h2 id="cityname"></h2>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="card">
+                <h4><b>Temperature</b></h4>
+                <i class="fa fa-temperature-low icon-style"></i>
+                <ul>
+                    <li>Humidity: <span id="humidity"></span></li>
+                    <li>Sunrise Timing: <span id="sunrise"></span></li>
+                    <li>Sunset Timing: <span id="sunset"></span></li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h4><b>Humidity Information</b></h4>
+                <i class='fa fa-cloud-showers-heavy icon-style'></i>
+                <ul>
+                    <li>Temperature: <span id="temp"></span></li>
+                    <li>Maximum Temperature: <span id="max_temp"></span></li>
+                    <li>Minimum Temperature: <span id="min_temp"></span></li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h4><b>Wind Information</b></h4>
+                <i class='fa fa-wind icon-style'></i>
+                <ul>
+                    <li>Cloud Percentage: <span id="cloud_pct"></span></li>
+                    <li>Wind Degrees: <span id="wind_degrees"></span></li>
+                    <li>Wind Speed: <span id="wind_speed"></span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div class="card2">
+                <h2>Weather</h2>
+                <span id="icon"></span>
+            </div>
+
+            <div class="card2">
+                <h2>Temperature</h2>
+                <span id="icon3"></span>
+            </div>
+
+            <div class="card2">
+                <h2>Sunrise and Sunset Time</h2>
+                <div class="iconlist">
+                    <i class="far fa-sun icon-style"></i>
+                    <div class="cardhead">
+                        <p>Current date: <span id="date"></span></p>
+                        <p>Sunrise Timing: <span id="sr"></span></p>
+                        <p>Sunset Timing: <span id="ss"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    <footer class="footer">
+        <span class="footer-title">Swapnil Suman</span>
+        <p>Thank you for weatherapp website. Have a great day!</p>
+    </footer>
+     
+    <script src="./app.js"></script>
+</body>
+</html>
